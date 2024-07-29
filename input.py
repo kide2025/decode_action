@@ -1,13 +1,4 @@
 import sys
-
-'''
-new Env("饿了么续期")
-变量：elmck，多号&或者新建变量
-cron 0 1,7,11,16,20 * * *
-需要ck里面包含token才能续期，自己找一键获取软件吧
-别人的接口，自行斟酌使用
-'''
-
 version = sys.version.split(" ")
 ver = version[0].split(".")
 if int(ver[1]) != 10:
